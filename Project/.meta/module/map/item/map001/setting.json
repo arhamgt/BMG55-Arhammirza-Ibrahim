@@ -1,0 +1,72 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic",
+        "back": {
+          "asset": "asset/sky_box/Sky_back.png",
+          "selector": "editor/Parkour/asset/sky_box/Sky_back.png"
+        },
+        "bottom": {
+          "asset": "asset/sky_box/Sky_bottom.png",
+          "selector": "editor/Parkour/asset/sky_box/Sky_bottom.png"
+        },
+        "front": {
+          "asset": "asset/sky_box/Sky_front.png",
+          "selector": "editor/Parkour/asset/sky_box/Sky_front.png"
+        },
+        "left": {
+          "asset": "asset/sky_box/Sky_left.png",
+          "selector": "editor/Parkour/asset/sky_box/Sky_left.png"
+        },
+        "right": {
+          "asset": "asset/sky_box/Sky_right.png",
+          "selector": "editor/Parkour/asset/sky_box/Sky_right.png"
+        },
+        "top": {
+          "asset": "asset/sky_box/Sky_top.png",
+          "selector": "editor/Parkour/asset/sky_box/Sky_top.png"
+        }
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "26644713697705985",
+        "uniqueKey": "map001"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8660588346985185281",
+        "ID": 1,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight",
+        "skyColor": {
+          "b": 230,
+          "g": 172,
+          "r": 165
+        },
+        "skyLineColor": {
+          "b": 198,
+          "g": 98,
+          "r": 106
+        }
+      }
+    ],
+    "name": {
+      "value": "map_map001"
+    },
+    "rotateSpeed": 1,
+    "touch_pos": {
+      "down": -5,
+      "up": 20
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "DataSet": [],
+      "setting.json": "34a63922e9ac74f548254bf99e383cda"
+    },
+    "VERSION": "0.22"
+  }
+}

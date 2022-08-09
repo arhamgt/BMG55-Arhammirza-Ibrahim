@@ -1,0 +1,326 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_SetPartLineVelocity",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Part",
+                        "action": "64a736a2-14a2-4ba5-b321-3135364efc79"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Vector3",
+                        "rawval": {
+                          "z": 1
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "67a4d9cc-5c2c-442c-85a2-bc5203b7ac91"
+              },
+              "pos": {
+                "x": 481,
+                "y": 53
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "part1"
+                }
+              ],
+              "id": {
+                "value": "64a736a2-14a2-4ba5-b321-3135364efc79"
+              },
+              "pos": {
+                "x": 1006,
+                "y": 21
+              },
+              "type": "T_Part"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "d34781ad-1409-43af-9876-9bc838e77cb6"
+            },
+            "type": "Trigger_PartTouchEntityBegin"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "67a4d9cc-5c2c-442c-85a2-bc5203b7ac91"
+                  },
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "425513d3-9bfd-40ce-b6cd-171ef0cb757b"
+            },
+            "pos": {
+              "x": 198,
+              "y": 164
+            }
+          },
+          "type": "Trigger_PartTouchEntityBegin"
+        },
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_SetPartLineVelocity",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Part",
+                        "action": "8e44e0ae-6a9a-441e-a016-db6eb3fefe54"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Vector3",
+                        "rawval": {
+                          "z": -2
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "d6795139-729c-4852-bb70-76246e5273fd"
+              },
+              "pos": {
+                "x": 517,
+                "y": 103
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "part1"
+                }
+              ],
+              "id": {
+                "value": "8e44e0ae-6a9a-441e-a016-db6eb3fefe54"
+              },
+              "pos": {
+                "x": 1071,
+                "y": 122
+              },
+              "type": "T_Part"
+            },
+            {
+              "__OBJ_TYPE": "Action_StartTimer2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 60
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "34e8b106-7851-478a-8d22-0d199d0a49b6"
+                    },
+                    {
+                      "action": "8cefd21e-3e3c-40b3-8133-30466ff8249d"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "3f784245-cbed-4452-bf9c-32b4e2653711"
+              },
+              "pos": {
+                "x": 403,
+                "y": 245
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_SetPartPosition",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Part",
+                        "action": "c1c72cb2-649d-41c3-a7b1-fe45299cbcd0"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Map",
+                        "rawval": "fa50cac3-3ef9-40ef-a309-cd182038639e"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos",
+                        "rawval": {
+                          "pos": {
+                            "x": -12
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "8cefd21e-3e3c-40b3-8133-30466ff8249d"
+              },
+              "pos": {
+                "x": 839,
+                "y": 450
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "part1"
+                }
+              ],
+              "id": {
+                "value": "c1c72cb2-649d-41c3-a7b1-fe45299cbcd0"
+              },
+              "pos": {
+                "x": 1338,
+                "y": 445
+              },
+              "type": "T_Part"
+            },
+            {
+              "__OBJ_TYPE": "Action_SetPartLineVelocity",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Part",
+                        "action": "55fd9ea2-ff59-4dc9-969a-4b9b35741002"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Vector3"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "34e8b106-7851-478a-8d22-0d199d0a49b6"
+              },
+              "pos": {
+                "x": 847,
+                "y": 320
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "part1"
+                }
+              ],
+              "id": {
+                "value": "55fd9ea2-ff59-4dc9-969a-4b9b35741002"
+              },
+              "pos": {
+                "x": 1277,
+                "y": 308
+              },
+              "type": "T_Part"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "e7601e54-1e80-49c2-a5eb-767f048c3899"
+            },
+            "type": "Trigger_PartTouchEntityEnd"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "d6795139-729c-4852-bb70-76246e5273fd"
+                  },
+                  {
+                    "action": "3f784245-cbed-4452-bf9c-32b4e2653711"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "55bb7d90-c75e-438e-8cea-af15dbc3547e"
+            },
+            "pos": {
+              "x": 59,
+              "y": 120
+            }
+          },
+          "type": "Trigger_PartTouchEntityEnd"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "triggers.bts": "022279db625a8baacdea2325e4eb4409"
+    },
+    "VERSION": "0.22"
+  }
+}

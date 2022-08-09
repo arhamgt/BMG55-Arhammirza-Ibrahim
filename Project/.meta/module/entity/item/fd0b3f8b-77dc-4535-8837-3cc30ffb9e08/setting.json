@@ -1,0 +1,49 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Brown Lion/g2020_pet_fourfeet_lion.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "chaseDistance": 5,
+      "enable": true,
+      "maxVisualAngle": 270,
+      "skillList": [
+        {
+          "attackDis": 1,
+          "fullName": "myplugin/hurt"
+        }
+      ]
+    },
+    "boundingVolume": {
+      "size": {
+        "y": 1
+      }
+    },
+    "boundingVolumeEntityCfg": {
+      "size": {
+        "y": 1
+      }
+    },
+    "collision": true,
+    "damage": 10,
+    "enableAI": true,
+    "girlactor": {
+      "asset": "asset/Actor/Brown Lion/g2020_pet_fourfeet_lion.actor"
+    },
+    "hideHp": false,
+    "hideName": true,
+    "maxHp": 100,
+    "moveSpeed": 2,
+    "name": {
+      "value": "entity_fd0b3f8b-77dc-4535-8837-3cc30ffb9e08"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b3e36e01e500cedc09ba7d3fad70c399",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

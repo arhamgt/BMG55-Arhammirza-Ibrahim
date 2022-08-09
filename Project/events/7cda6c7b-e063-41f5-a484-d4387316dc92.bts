@@ -1,0 +1,9 @@
+PART_TOUCH_ENTITY_BEGIN {
+	ShowTip(
+		entity = $obj2,
+		keepTime = 100,
+		textKey = Concat(p1 = GetEntityName(entity = $obj2), p2 = " Win!"),
+		tipType = "1"
+	)
+	GameOver()
+}

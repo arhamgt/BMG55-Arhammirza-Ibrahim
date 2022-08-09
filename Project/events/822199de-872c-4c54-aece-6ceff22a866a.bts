@@ -1,0 +1,11 @@
+PART_TOUCH_ENTITY_BEGIN {
+	SetPartLineVelocity(lv = { x = 0, y = 0, z = 1 }, part = $part1)
+}
+
+PART_TOUCH_ENTITY_END {
+	SetPartLineVelocity(lv = { x = 0, y = 0, z = -2 }, part = $part1)
+	StartTimer2(interval = 60, time = 1, timer = "") {
+		SetPartLineVelocity(lv = { x = 0, y = 0, z = 0 }, part = $part1)
+		SetPartPosition(map = "fa50cac3-3ef9-40ef-a309-cd182038639e", part = $part1, pos = { x = -12, y = 0, z = 0 })
+	}
+}
